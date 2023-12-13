@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="./css/style.css">
+    <title>Nolita Ropa de Bebe</title>
+</head>
+<body>
+    <header id="header-index">
+        <div class="header-wrapper">
+        <img class="container-fluid" src="/img/nolita-header.jpg" alt="Nolita Header">
+        </div>
+        <nav class="navbar navbar-expand-lg background-nav">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Nolita Ropa de Bebes</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/sucursales.html">Sucursales</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/quienes-somos.html">Quienes Somos?</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/gift-card.html">Gift Card</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/suscribete.html">Suscribete</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Escribe aqui..." aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+<main>
+  <div class="btn-group-lg">
+  <div class="btn-group">
+    <button class="btn btn-secondary btn-lg dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Filtros
+    </button>
+    <ul class="dropdown-menu">
+      <li>
+          <h3>Genero</h3>
+          <div>
+          <label for="nene-genero"></label>
+          <input type="checkbox" id="nene-genero">Nene
+          </div>
+      </li>
+      <li>
+          <div>
+            <label for="nena-genero"></label>
+            <input type="checkbox" id="nena-genero">Nena
+        </div>
+        </li>
+        <li>
+          <h3>Categoria</h3>
+          <div>
+            <label for="body-categ"></label>
+            <input type="checkbox" id="body-categ">Body
+        </div>
+        <div>
+            <label for="conjunto-categ"></label>
+            <input type="checkbox" id="conjunto-categ">Conjunto
+        </div>
+        <div>
+            <label for="batas-categ"></label>
+            <input type="checkbox" id="batas-categ">Batas
+        </div>
+        <div>
+            <label for="pantalones-categ"></label>
+            <input type="checkbox" id="pantalones-categ">Pantalones
+        </div>
+        <div>
+            <label for="accesorios-categ"></label>
+            <input type="checkbox" id="accesorios-categ">Accesorios
+        </div>
+        <div>
+            <label for="saqyswe-categ"></label>
+            <input type="checkbox" id="saqyswe-categ">Saquitos y Sweters
+        </div>
+        </li>
+        <li>
+          <h3>Temporada</h3>
+          <div>
+            <label for="oi-temp"></label>
+            <input type="checkbox" id="oi-temp">Otoño/Invierno
+        </div>
+        <div>
+            <label for="pv-temp"></label>
+            <input type="checkbox" id="pv-temp">Primavera/Verano
+        </div>
+        </li>
+        <li>
+          <h3>Talles</h3>
+          <div>
+                <label for="0a6-talles"></label>
+                <input type="checkbox" id="0a6-talles">0 a 6 Meses
+            </div>
+            <div>
+                <label for="6a12-talles"></label>
+                <input type="checkbox" id="6a12-talles">6 a 12 Meses
+            </div>
+            <div>
+                <label for="12a18-talles"></label>
+                <input type="checkbox" id="12a18-talles">12 a 18 Meses
+            </div>
+            <div>
+                <label for="18a24-talles"></label>
+                <input type="checkbox" id="18a24-talles">18 a 24 Meses
+            </div>
+        </li>
+    </ul>
+  </div>
+  <section class="row">
+            
+    <article class="col-xl-3">
+        <h2>Filtros</h2>
+        <h3>Genero</h3>
+        <h4>
+            <div>
+            <label for="nene-genero"></label>
+            <input type="checkbox" id="nene-genero">Nene
+            </div>
+            <div>
+                <label for="nena-genero"></label>
+                <input type="checkbox" id="nena-genero">Nena
+            </div>
+        
+        </h4>
+        <h3>Categoria</h3>
+        <h4>
+            <div>
+                 <label for="body-categ"></label>
+                 <input type="checkbox" id="body-categ">Body
+            </div>
+            <div>
+                <label for="conjunto-categ"></label>
+                <input type="checkbox" id="conjunto-categ">Conjunto
+            </div>
+            <div>
+                <label for="batas-categ"></label>
+                <input type="checkbox" id="batas-categ">Batas
+            </div>
+            <div>
+                <label for="pantalones-categ"></label>
+                <input type="checkbox" id="pantalones-categ">Pantalones
+            </div>
+            <div>
+                <label for="accesorios-categ"></label>
+                <input type="checkbox" id="accesorios-categ">Accesorios
+            </div>
+            <div>
+                <label for="saqyswe-categ"></label>
+                <input type="checkbox" id="saqyswe-categ">Saquitos y Sweters
+            </div>
+            
+        
+        </h4>
+        <h3>Temporada</h3>
+        <h4>
+            <div>
+                <label for="oi-temp"></label>
+                <input type="checkbox" id="oi-temp">Otoño/Invierno
+            </div>
+            <div>
+                <label for="pv-temp"></label>
+                <input type="checkbox" id="pv-temp">Primavera/Verano
+            </div>
+            
+        </h4>
+        <h3>Talles</h3>
+        <h4>
+            <div>
+                <label for="0a6-talles"></label>
+                <input type="checkbox" id="0a6-talles">0 a 6 Meses
+            </div>
+            <div>
+                <label for="6a12-talles"></label>
+                <input type="checkbox" id="6a12-talles">6 a 12 Meses
+            </div>
+            <div>
+                <label for="12a18-talles"></label>
+                <input type="checkbox" id="12a18-talles">12 a 18 Meses
+            </div>
+            <div>
+                <label for="18a24-talles"></label>
+                <input type="checkbox" id="18a24-talles">18 a 24 Meses
+        </h4>
+        
+    </article>
+
+    <div class="card col-xl-3 ">
+      <img src="/img/index1.jpg" class="card-img-top" alt="ropita">
+      <div class="card-body">
+        <h3 class="card-title">Card title</h3>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+      <div class="card col-xl-3 ">
+        <img src="/img/index2.jpg" class="card-img-top object-fit-contain" alt="ropita">
+        <div class="card-body">
+          <h3 class="card-title">Card title</h3>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+    <div class="card col-xl-3">
+      <img src="/img/index3.jpg" class="card-img-top object-fit-fill" alt="ropita">
+      <div class="card-body">
+        <h3 class="card-title">Card title</h3>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+  </div>
+
+
+  <div class="card col-xl-3 offset-xl-3">
+    <img src="/img/index4.jpg" class="card-img-top object-fit-fill" alt="ropita">
+    <div class="card-body">
+      <h3 class="card-title">Card title</h3>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+</div>
+<div class="card col-xl-3">
+  <img src="/img/index5.jpg" class="card-img-top object-fit-contain" alt="ropita">
+  <div class="card-body">
+    <h3 class="card-title">Card title</h3>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+<div class="card col-xl-3">
+  <img src="/img/index6.jpg" class="card-img-top object-fit-contain" alt="ropita">
+  <div class="card-body">
+    <h3 class="card-title">Card title</h3>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+
+</div>
+
+</section>
+
+</main>
+<hr>
+<footer>
+  <div class="row">
+<div class="col d-inline-grid">
+  <a href="#header-index"><img src="../img/nolita-footer.png" alt="Nolita pie de pagina" width="180vw" height="180vh"></a>
+</div>
+    <div class="col d-inline-grid">
+      <iframe style="border-radius:20px" src="https://open.spotify.com/embed/track/2Mz5yx6M8jiK8nhgG2QVie?utm_source=generator" width="230vh" height="120vh" frameBorder="10" allowfullscreen="" allow="autoplay"; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+    </div>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
