@@ -49,17 +49,113 @@
           </nav>
     </header>
 <main>
-  <section class="container">
-  <div class="input-group">
-    <span class="input-group-text">Nombre y Apellido</span>
-    <input type="text" placeholder="Nombre" aria-label="First name" class="form-control">
-    <input type="text" placeholder="Apellido" aria-label="Last name" class="form-control">
-  </div>
-  <div class="input-group flex-nowrap">
-    <span class="input-group-text" id="addon-wrapping">Correo Electronico @</span>
-    <input type="text" class="form-control" placeholder="Ejemplo@ejemplo.com" aria-label="Username" aria-describedby="addon-wrapping">
-  </div>
+<h2 class="text-center my-4"> Suscribete a nuestro Newsletter y enterate de todo lo nuevo</h2>
 
+<section class="container my-5">
+
+  <form class="row g-3 needs-validation" novalidate>
+    <div class="col-md-4">
+      <label for="nombreform" class="form-label">Nombre</label>
+      <input type="text" class="form-control" id="nombreform" value="Juan" required>
+      <div class="valid-feedback">
+        Correcto!
+      </div>
+    </div>
+    <div class="col-md-4">
+      <label for="apellido-form" class="form-label">Apellido</label>
+      <input type="text" class="form-control" id="apellidoform" value="Perez" required>
+      <div class="valid-feedback">
+        Correcto!
+      </div>
+    </div>
+    <div class="col-md-4">
+      <label for="email-form" class="form-label">Correo Electronico</label>
+      <div class="input-group has-validation">
+        <span class="input-group-text" id="email-form">@</span>
+        <input placeholder="Ejemplo@ejemplo.com" type="email" class="form-control" id="email-form" aria-describedby="inputGroupPrepend" required>
+        <div class="invalid-feedback">
+          Por favor escriba un correo electroico valido!
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <label for="fecha-nacimiento" class="form-label">Fecha de Nacimiento</label>
+      <input type="date" class="form-control" id="fecha-nacimiento" required>
+    </div>
+    <div class="col-md-4">
+      <label for="provincia" class="form-label">Provincia</label>
+      <select class="form-select" id="provincia" required>
+        <option selected disabled value="">Elige...</option>
+        <option>Buenos Aires</option>
+          <option>Ciudad Autónoma de Buenos Aires</option>
+          <option>Catamarca</option>
+          <option>Chaco</option>
+          <option>Chubut</option>
+          <option>Córdoba</option>
+          <option>Corrientes</option>
+          <option>Entre Ríos</option>
+          <option>Formosa</option>
+          <option>Jujuy</option>
+          <option>La Pampa</option>
+          <option>La Rioja</option>
+          <option>Mendoza</option>
+          <option>Misiones</option>
+          <option>Neuquén</option>
+          <option>Río Negro</option>
+          <option>Salta</option>
+          <option>San Juan</option>
+          <option>San Luis</option>
+          <option>Santa Cruz</option>
+          <option>Santa Fe</option>
+          <option>Santiago del Estero</option>
+          <option>Tierra del Fuego</option>
+          <option>Tucumán</option>
+      </select>
+    </div>
+    <div class="col-md-4">
+      <label for="codigo-postal" class="form-label">Codigo Postal</label>
+      <input type="text" class="form-control" id="codigo-postal" required>
+      <div class="invalid-feedback">
+        Porfacor escriba un codigo postal valido!.
+      </div>
+    </div>
+    <div class="col-12">
+      <label for="donde-nos-encontraste" class="form-label">Donde nos econtraste?</label>
+      <select class="form-select" id="donde-nos-encontraste" required>
+        <option selected disabled value="">Elige...</option>
+        <option>Facebook</option>
+          <option>Instagram</option>
+          <option>TikTok</option>
+          <option>Google</option>
+          <option>Ads randmo</option>
+          <option>Linkedin</option>
+          <option>Otro...</option>
+      </select>
+    </div>
+    <div class="col-12">
+      <label for="text-area" class="form-label">Cuentanos, en que podriamos mejorar:</label>
+      <textarea class="form-control" id="text-area" placeholder="Me parece que..." required></textarea>
+      <div class="invalid-feedback">
+        Por favor, ingrese un mensaje..
+      </div>
+    </div>
+      <hr>
+    <div class="col-12">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+        <label class="form-check-label" for="invalidCheck">
+          Acepto terminos y condiciones.
+        </label>
+        <div class="invalid-feedback">
+          Tienes que aceptar los termimos y condiciones para Suscribirte!
+        </div>
+      </div>
+    </div>
+    <div class="col-12">
+      <button class="btn btn-danger" type="submit">Suscribirme!</button>
+    </div>
+    
+  </form>
   </section>
 </main>
 <hr>
