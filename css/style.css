@@ -13,9 +13,7 @@ background-color: #F5B7B1;
 .navbar-brand {
     color: whitesmoke;
     font-family: "Roboto", sans-serif;
-    font-size: x-large;
-    background-color: rgb(160, 133, 167);
-    border-radius: 30%; 
+    font-size: x-large; 
 }
 
 .nav-link {
