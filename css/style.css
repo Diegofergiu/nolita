@@ -36,6 +36,17 @@ background-color: #F5B7B1;
     font-family: "Roboto", sans-serif;
 }
 
+@media (min-width:768px) {
+.card {
+    max-height: 480px;
+}
+}
+@media (min-width:1650px) {
+    .card {
+        max-height: 900px;
+    }
+    }
+
 /*Estilps Sucursales*/
 
 
