@@ -1,0 +1,11 @@
+.card {
+
+    @include mq-tablet {
+        max-height:480px;
+    }
+
+    @include mq-desktop {
+        max-height: 900px;
+    }
+
+}

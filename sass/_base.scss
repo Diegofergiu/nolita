@@ -1,0 +1,19 @@
+$color-primario: #F5B7B1;
+$color-secudario: white;
+$color-terciario: whitesmoke;
+$ff-Roboto: "Roboto", sans-serif;
+
+@mixin mq-tablet {
+    @media (min-width:768px) {
+        @content
+} 
+}
+
+@mixin mq-desktop {
+@media (min-width:1650px) {
+    @content
+    
+}
+}
+
+

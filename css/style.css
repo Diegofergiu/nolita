@@ -1,75 +1,61 @@
-
-
-
-/* Estilos header en todas la paginas */
-.header-wrapper {
-background-color: #F5B7B1;    
+header .header-wrapper {
+  background-color: #F5B7B1;
+}
+header nav {
+  background-color: #F5B7B1;
+}
+header nav .nav-link {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: x-large;
+}
+header .navbar-brand {
+  color: whitesmoke;
+  font-family: "Roboto", sans-serif;
+  font-size: x-large;
 }
 
-.background-nav {
-    background-color: #F5B7B1;
-}
-
-.navbar-brand {
-    color: whitesmoke;
-    font-family: "Roboto", sans-serif;
-    font-size: x-large; 
-}
-
-.nav-link {
-    color: white ;
-    font-family: "Roboto", sans-serif;
-    font-size: x-large;
+footer {
+  background-color: #F5B7B1;
 }
 
 .btn {
-    background-color: #F5B7B1;
-    list-style: none;
-    color: white;
-    display: block;
-}
-.bg-rosa {
-    background-color: #F5B7B1;
+  background-color: #F5B7B1;
+  list-style: none;
+  color: white;
+  display: block;
 }
 
-/* Estilos Index*/
-
-
-.filtros .h2 .h3 {
-    font-family: "Roboto", sans-serif;
-}
-
-@media (min-width:768px) {
-.card {
+@media (min-width: 768px) {
+  .card {
     max-height: 480px;
+  }
 }
-}
-@media (min-width:1650px) {
-    .card {
-        max-height: 900px;
-    }
-    }
-
-/*Estilos Sucursales*/
-
-
-.iframe-googlemaps{
-width: 100%;
-height: 450px;
+@media (min-width: 1650px) {
+  .card {
+    max-height: 900px;
+  }
 }
 
-/*Estilos Quienes somos*/
+.filtros h2, .filtros h3 {
+  font-family: "Roboto", sans-serif;
+}
 
+.iframe-googlemaps {
+  width: 100%;
+  height: 450px;
+}
 
 .parrafo-quienessomos {
-    font-size: x-large;
-    margin: 10%;
+  font-size: x-large;
+  margin: 10%;
 }
+
 .foto-quienes {
-    width: 70%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,20 @@
+header{
+    .header-wrapper {
+        background-color: $color-primario;
+    }
+        nav {
+            background-color: $color-primario;
+            .nav-link{
+                color: $color-secudario;
+                font-family: $ff-Roboto;
+                font-size: x-large;
+           }
+        }
+        .navbar-brand{
+                    color: $color-terciario;
+                    font-family: $ff-Roboto;
+                     font-size: x-large; 
+                             }
+         
+            
+}

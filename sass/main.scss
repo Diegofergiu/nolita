@@ -1,0 +1,19 @@
+// Base
+
+@import "./base";
+
+// Componentes
+
+@import "./components/header";
+@import "./components/footer";
+@import "./components/botones";
+@import "./components/tarjetas";
+
+
+// Carpetas
+
+@import "./pages/index";
+@import "./pages/sucursales";
+@import "./pages/quienes-somos";
+@import "./pages/gift-card";
+@import "./pages/suscribete";
