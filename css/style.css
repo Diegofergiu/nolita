@@ -26,6 +26,9 @@ footer {
   display: block;
 }
 
+.card {
+  transition-duration: 0.2s;
+}
 @media (min-width: 768px) {
   .card {
     max-height: 480px;
@@ -35,6 +38,12 @@ footer {
   .card {
     max-height: 900px;
   }
+}
+
+.card:hover {
+  scale: 1.05;
+  box-shadow: 0px 0px 10px 5px;
+  transition-duration: 1s;
 }
 
 .filtros h2, .filtros h3 {
