@@ -59,6 +59,9 @@ footer {
   transition-duration: 1s;
 }
 
+.filtros {
+  height: 480px;
+}
 .filtros h2, .filtros h3 {
   font-family: "Roboto", sans-serif;
 }
