@@ -16,7 +16,14 @@ header .navbar-brand {
 }
 
 footer {
+  transition-duration: 2s;
   background-color: #F5B7B1;
+}
+
+.logo-rotador:hover {
+  transition-duration: 1s;
+  scale: 1.2;
+  rotate: 360deg;
 }
 
 .btn {

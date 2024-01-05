@@ -1,4 +1,10 @@
 footer{
+    transition-duration: 2s;
     background-color: $color-primario;
 }
 
+.logo-rotador:hover{
+    transition-duration: 1s;
+    scale: 1.2;
+    rotate: 360deg;
+    }
