@@ -78,9 +78,16 @@ footer .iframe {
 
 .filtros {
   height: 480px;
-}
-.filtros h2, .filtros h3 {
   font-family: "Roboto", sans-serif;
+}
+.filtros h2 {
+  font-size: large;
+}
+.filtros h3 {
+  font-size: large;
+}
+.filtros h4 {
+  font-size: medium;
 }
 
 .iframe-googlemaps {
