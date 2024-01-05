@@ -2,17 +2,29 @@ header .header-wrapper {
   background-color: #F5B7B1;
 }
 header nav {
-  background-color: #F5B7B1;
+  background: linear-gradient(to bottom, #F5B7B1, whitesmoke);
 }
-header nav .nav-link {
-  color: white;
+
+.nav-link {
+  color: gray;
   font-family: "Roboto", sans-serif;
-  font-size: x-large;
+  font-size: medium;
 }
-header .navbar-brand {
-  color: whitesmoke;
+@media (min-width: 768px) {
+  .nav-link {
+    font-size: large;
+  }
+}
+
+.navbar-brand {
+  color: gray;
   font-family: "Roboto", sans-serif;
-  font-size: x-large;
+  font-size: medium;
+}
+@media (min-width: 768px) {
+  .navbar-brand {
+    font-size: large;
+  }
 }
 
 footer {

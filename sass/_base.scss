@@ -1,7 +1,9 @@
 $color-primario: #F5B7B1;
-$color-secudario: white;
+$color-secundario: white;
 $color-terciario: whitesmoke;
+$color-nav: gray;
 $ff-Roboto: "Roboto", sans-serif;
+
 
 @mixin mq-tablet {
     @media (min-width:768px) {

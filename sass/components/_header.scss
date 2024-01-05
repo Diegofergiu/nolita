@@ -1,20 +1,27 @@
 header{
     .header-wrapper {
-        background-color: $color-primario;
+        background-color:$color-primario;
     }
         nav {
-            background-color: $color-primario;
-            .nav-link{
-                color: $color-secudario;
-                font-family: $ff-Roboto;
-                font-size: x-large;
-           }
-        }
-        .navbar-brand{
-                    color: $color-terciario;
-                    font-family: $ff-Roboto;
-                     font-size: x-large; 
-                             }
-         
-            
+                background: linear-gradient(to bottom,$color-primario,$color-terciario);
+                }
 }
+     .nav-link{
+    color: $color-nav;
+    font-family: $ff-Roboto;
+    font-size: medium;
+    @include mq-tablet {
+        font-size: large;
+    }
+}
+        .navbar-brand{
+                    color: $color-nav ;
+                    font-family: $ff-Roboto;
+                    font-size: medium; 
+
+                    @include mq-tablet {
+                    font-size:large;
+                }
+}
+
+            
