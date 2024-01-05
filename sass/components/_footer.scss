@@ -1,7 +1,12 @@
 footer{
     transition-duration: 2s;
     background-color: $color-primario;
-}
+    .iframe{
+        border-radius:20px;
+        width:300vw;
+        height:150vh;
+    }
+    }
 
 .logo-rotador:hover{
     transition-duration: 1s;

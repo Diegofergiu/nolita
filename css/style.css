@@ -19,6 +19,11 @@ footer {
   transition-duration: 2s;
   background-color: #F5B7B1;
 }
+footer .iframe {
+  border-radius: 20px;
+  width: 300vw;
+  height: 150vh;
+}
 
 .logo-rotador:hover {
   transition-duration: 1s;
