@@ -1,13 +1,16 @@
 .filtros {
 height: 480px;
 font-family: $ff-Roboto;
-    h2{
-       font-size: large;
-    }
-    h3{
-        font-size: large;
+    h1,h2,h3{
+    font-size: large;
     }
     h4{
         font-size: medium;
     }
+        &_mobile {
+                h1,h2,h3{
+                font-size: large;
+                }
+        }
+    
 }

@@ -80,14 +80,14 @@ footer .iframe {
   height: 480px;
   font-family: "Roboto", sans-serif;
 }
-.filtros h2 {
-  font-size: large;
-}
-.filtros h3 {
+.filtros h1, .filtros h2, .filtros h3 {
   font-size: large;
 }
 .filtros h4 {
   font-size: medium;
+}
+.filtros_mobile h1, .filtros_mobile h2, .filtros_mobile h3 {
+  font-size: large;
 }
 
 .iframe-googlemaps {
@@ -105,6 +105,14 @@ footer .iframe {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.bg-body-tertiary h1 {
+  font-size: xx-large;
+}
+
+.bg-body-tertiary h1 {
+  font-size: xx-large;
 }
 
 /*# sourceMappingURL=style.css.map */
