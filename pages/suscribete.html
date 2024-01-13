@@ -63,26 +63,26 @@
 
 <section class="container my-5 py-5">
 <!-- Formulario-->
-  <form class="row g-3 needs-validation" netlify>
+  <form class="row g-3 needs-validation" name="Suscribete" netlify>
     <div class="col-12 col-md-6 col-lg-4">
-      <label for="Nommbre-Formulario">Nombre</label>
-      <input type="text" class="form-control" id="Nommbre-Formulario" value="Juan" required>
+      <label for="Nommbre">Nombre</label>
+      <input type="text" class="form-control" id="Nommbre" name="Nommbre" placeholder="Juan" required>
       <div class="valid-feedback">
         Correcto!
       </div>
     </div>
     <div class="col-12 col-md-6 col-lg-4">
-      <label for="Apellido-Formulario">Apellido</label>
-      <input type="text" class="form-control" id="Apellido-Formulario" value="Perez" required>
+      <label for="Apellido">Apellido</label>
+      <input type="text" class="form-control" name="Apellido" id="Apellido" placeholder="Perez" required>
       <div class="valid-feedback">
         Correcto!
       </div>
     </div>
     <div class="col-12 col-md-6 col-lg-4">
-      <label for="Email-Formulario">Correo Electronico</label>
+      <label for="Email">Correo Electronico</label>
       <div class="input-group has-validation">
         <span class="input-group-text" id="email-form">@</span>
-        <input placeholder="Ejemplo@ejemplo.com" type="email" class="form-control" id="Email-Formulario" aria-describedby="inputGroupPrepend" required>
+        <input placeholder="Ejemplo@ejemplo.com" type="email" class="form-control" name="Email" id="Email" aria-describedby="inputGroupPrepend" required>
         <div class="invalid-feedback">
           Por favor escriba un correo electroico valido!
         </div>
@@ -90,11 +90,11 @@
     </div>
     <div class="col-12 col-md-6 col-lg-4">
       <label for="Fecha-Nacimiento">Fecha de Nacimiento</label>
-      <input type="date" class="form-control" id="Fecha-Nacimiento" required>
+      <input type="date" class="form-control" name="Fecha-Nacimiento" required>
     </div>
     <div class="col-12 col-md-6 col-lg-4">
       <label for="provincia">Provincia</label>
-      <select class="form-select" id="provincia" required>
+      <select class="form-select" name="provincia" id="provincia required>
         <option selected disabled value="">Elige...</option>
         <option>Buenos Aires</option>
           <option>Ciudad Autónoma de Buenos Aires</option>
@@ -124,7 +124,7 @@
     </div>
     <div class="col-12 col-md-6 col-lg-4">
       <label for="codigo-postal">Codigo Postal</label>
-      <input type="number" class="form-control" id="codigo-postal" required>
+      <input type="number" class="form-control" id="codigo-postal" name="codigo-postal" required>
       <div class="invalid-feedback">
         Porfacor escriba un codigo postal valido!.
       </div>
@@ -144,7 +144,7 @@
     </div>
     <div class="col-12">
       <label for="Que-podemos-mejorar">Cuentanos, en que podriamos mejorar:</label>
-      <textarea class="form-control" id="Que-podemos-mejorar" placeholder="Me parece que..." required></textarea>
+      <textarea class="form-control" id="Que-podemos-mejorar" name="Que-podemos-mejorar" placeholder="Me parece que..." required></textarea>
       <div class="invalid-feedback">
         Por favor, ingrese un mensaje..
       </div>
