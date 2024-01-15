@@ -63,99 +63,87 @@
 
 <section class="container my-5 py-5">
 <!-- Formulario-->
-  <form class="row g-3 needs-validation" name="Suscribete" netlify>
-    <div class="col-12 col-md-6 col-lg-4">
-      <label for="Nommbre">Nombre</label>
-      <input type="text" class="form-control" id="Nommbre" name="Nommbre" placeholder="Juan" required>
-      <div class="valid-feedback">
-        Correcto!
-      </div>
+  <form class="row g-3 needs-validation" name="Suscribete" data-netlify="true">
+    <div class=" col-12 col-md-6 col-lg-4 ">
+      <label class="container-fluid" for="Nombre">
+        Nombre: <input type="text" class="form-control" id="Nombre" name="Nombre" placeholder="Juan">
+      </label>
     </div>
     <div class="col-12 col-md-6 col-lg-4">
-      <label for="Apellido">Apellido</label>
-      <input type="text" class="form-control" name="Apellido" id="Apellido" placeholder="Perez" required>
-      <div class="valid-feedback">
-        Correcto!
-      </div>
+      <label class="container-fluid" for="Apellido">
+      Apellido: <input type="text" class="form-control" name="Apellido" id="Apellido" placeholder="Perez" required>
+      </label>
     </div>
     <div class="col-12 col-md-6 col-lg-4">
-      <label for="Email">Correo Electronico</label>
-      <div class="input-group has-validation">
-        <span class="input-group-text" id="email-form">@</span>
-        <input placeholder="Ejemplo@ejemplo.com" type="email" class="form-control" name="Email" id="Email" aria-describedby="inputGroupPrepend" required>
-        <div class="invalid-feedback">
-          Por favor escriba un correo electroico valido!
-        </div>
-      </div>
+      <label class="container-fluid" for="Email">
+      Correo Electronico: <input placeholder="Ejemplo@ejemplo.com" type="email" class="form-control" name="Email" id="Email" aria-describedby="inputGroupPrepend" required>
+      </label>
     </div>
     <div class="col-12 col-md-6 col-lg-4">
-      <label for="Fecha-Nacimiento">Fecha de Nacimiento</label>
-      <input type="date" class="form-control" name="Fecha-Nacimiento" required>
+      <label class="container-fluid" for="Fecha-Nacimiento">
+      Fecha de Nacimiento: <input type="date" class="form-control" name="Fecha-Nacimiento">
+      </label>
     </div>
     <div class="col-12 col-md-6 col-lg-4">
-      <label for="provincia">Provincia</label>
-      <select class="form-select" name="provincia" id="provincia required>
-        <option selected disabled value="">Elige...</option>
-        <option>Buenos Aires</option>
-          <option>Ciudad Autónoma de Buenos Aires</option>
-          <option>Catamarca</option>
-          <option>Chaco</option>
-          <option>Chubut</option>
-          <option>Córdoba</option>
-          <option>Corrientes</option>
-          <option>Entre Ríos</option>
-          <option>Formosa</option>
-          <option>Jujuy</option>
-          <option>La Pampa</option>
-          <option>La Rioja</option>
-          <option>Mendoza</option>
-          <option>Misiones</option>
-          <option>Neuquén</option>
-          <option>Río Negro</option>
-          <option>Salta</option>
-          <option>San Juan</option>
-          <option>San Luis</option>
-          <option>Santa Cruz</option>
-          <option>Santa Fe</option>
-          <option>Santiago del Estero</option>
-          <option>Tierra del Fuego</option>
-          <option>Tucumán</option>
+      <label class="container-fluid" for="provincia">Provincia</label>
+      <select class="form-select" name="provincia" id="provincia" required>
+        <option selected>Elige...</option>
+        <option value="Buenos Aires">Buenos Aires</option>
+          <option value= "Ciudad Autónoma de Buenos Aires">Ciudad Autónoma de Buenos Aires</option>
+          <option value="Catamarca">Catamarca</option>
+          <option value="Chaco">Chaco</option>
+          <option value="Chubut">Chubut</option>
+          <option value="Cordoba">Córdoba</option>
+          <option value="Corrientes">Corrientes</option>
+          <option value="Entre Rios">Entre Ríos</option>
+          <option value="Formosa">Formosa</option>
+          <option value="Jujuy">Jujuy</option>
+          <option value="La Pampa">La Pampa</option>
+          <option value="La Rioja">La Rioja</option>
+          <option value="Mendoza">Mendoza</option>
+          <option value="Misiones">Misiones</option>
+          <option value="Neuquen">Neuquén</option>
+          <option value="Rio Negro">Río Negro</option>
+          <option value="Salta">Salta</option>
+          <option value="San Juan">San Juan</option>
+          <option value="San Luis">San Luis</option>
+          <option value="Santa Cruz">Santa Cruz</option>
+          <option value="Santa Fe">Santa Fe</option>
+          <option value="Santaigo del Estero">Santiago del Estero</option>
+          <option value="Tierra del Fuego">Tierra del Fuego</option>
+          <option value="Tucuman">Tucumán</option>
       </select>
     </div>
     <div class="col-12 col-md-6 col-lg-4">
-      <label for="codigo-postal">Codigo Postal</label>
-      <input type="number" class="form-control" id="codigo-postal" name="codigo-postal" required>
-      <div class="invalid-feedback">
-        Porfacor escriba un codigo postal valido!.
-      </div>
+      <label class="container-fluid" for="codigo-postal">Codigo Postal
+      <input type="number" class="container-fluid form-control" id="codigo-postal" name="codigo-postal">
+      </label>
     </div>
     <div class="col-12">
-      <label for="donde-nos-encontraste">Donde nos econtraste?</label>
+      <label class="container-fluid" for="donde-nos-encontraste">Donde nos econtraste?</label>
       <select class="form-select" id="donde-nos-encontraste" required>
         <option selected disabled value="">Elige...</option>
-        <option>Facebook</option>
-          <option>Instagram</option>
-          <option>TikTok</option>
-          <option>Google</option>
-          <option>Ads random</option>
-          <option>Linkedin</option>
-          <option>Otro...</option>
+        <option value="Facebook">Facebook</option>
+          <option value="Instagram">Instagram</option>
+          <option value="TikTok">TikTok</option>
+          <option value="Google">Google</option>
+          <option value="Ads random">Ads random</option>
+          <option value="Linkedin">Linkedin</option>
+          <option value="Otro">Otro...</option>
       </select>
     </div>
     <div class="col-12">
-      <label for="Que-podemos-mejorar">Cuentanos, en que podriamos mejorar:</label>
-      <textarea class="form-control" id="Que-podemos-mejorar" name="Que-podemos-mejorar" placeholder="Me parece que..." required></textarea>
-      <div class="invalid-feedback">
-        Por favor, ingrese un mensaje..
-      </div>
+      <label class="container-fluid" for="Que-podemos-mejorar">
+      Cuentanos, en que podriamos mejorar:<textarea class="form-control" id="Que-podemos-mejorar" name="Que-podemos-mejorar" placeholder="Me parece que..." required></textarea>
+    </label>
     </div>
       <hr>
     <div class="col-12">
       <div class="form-check">
-        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
         <label class="form-check-label" for="invalidCheck">
+        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+      </label>
           Acepto terminos y condiciones.
-        </label>
         <div class="invalid-feedback">
           Tienes que aceptar los termimos y condiciones para Suscribirte!
         </div>
