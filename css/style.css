@@ -115,4 +115,8 @@ footer .iframe {
   font-size: xx-large;
 }
 
+.bg-color-succes {
+  background-color: linear-gradient(to bottom, #F5B7B1, whitesmoke);
+}
+
 /*# sourceMappingURL=style.css.map */

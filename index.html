@@ -220,7 +220,7 @@
       <div class="card-body">
         <p class="card-text">Suaves tonos pastel y delicados diseños florales, este conjunto transforma a tu bebé en una adorable mariposa primaveral.</p>
         <hr>
-        <a href="#" class="btn btn-danger btn-lg">Comprar</a>
+        <a type="button" class="btn btn-danger btn-lg" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Comprar</a>
       </div>
     </div>
     <!-- Tarjeta 2 -->
@@ -229,7 +229,7 @@
         <div class="card-body">
           <p class="card-text">Estampados cósmicos y tonos suaves, este atuendo convierte a tu bebé en un explorador del universo lleno de ternura.</p>
           <hr>
-          <a href="#" class="btn btn-danger btn-lg">Comprar</a>
+          <a type="button" class="btn btn-danger btn-lg" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Comprar</a>
         </div>
     </div>
     <!-- Tarjeta 3 -->
@@ -238,7 +238,7 @@
       <div class="card-body">
         <p class="card-text">Colores suaves y blancos acogedores se mezclan para crear un conjunto celestial, envolviendo a tu bebé en suavidad celestial.</p>
         <hr>
-        <a href="#" class="btn btn-danger btn-lg">Comprar</a>
+        <a type="button" class="btn btn-danger btn-lg" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Comprar</a>
       </div>
   </div>
      <!-- Tarjeta 4 -->
@@ -247,7 +247,7 @@
     <div class="card-body">
       <p class="card-text">Anclas y timones adornan este pantalon náutico, transformando a tu bebé en un intrépido marinero lleno de alegría.</p>
       <hr>
-      <a href="#" class="btn btn-danger btn-lg">Comprar</a>
+      <a type="button" class="btn btn-danger btn-lg" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Comprar</a>
     </div>
 </div>
      <!-- Tarjeta 5 -->
@@ -256,7 +256,7 @@
   <div class="card-body">
     <p class="card-text">Erizos y conejitos decoran esta ropa acogedora de otoño, brindando calidez y diversión a los días de tu bebé.</p>
    <hr>
-    <a href="#" class="btn btn-danger btn-lg">Comprar</a>
+   <a type="button" class="btn btn-danger btn-lg" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Comprar</a>
   </div>
 </div>
      <!-- Tarjeta 6 -->
@@ -265,11 +265,44 @@
   <div class="card-body">
     <p class="card-text">Colores vibrantes y pinceladas juguetonas, este conjunto inspira la creatividad desde sus primeros pasitos.</p>
     <hr>
-    <a href="#" class="btn btn-danger btn-lg">Comprar</a>
+    <a type="button" class="btn btn-danger btn-lg" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Comprar</a>
   </div>
+</div>
+<!-- Modal Tarjetas -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">Carrito de compras</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       Desea agregar este articulo al carrito de compras?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">No</button>
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#Loquiero" >Lo quiero!</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal Lo Quiero -->
+<div class="modal fade" id="Loquiero" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="Loquierolabel" aria-hidden="true">
+<div class="modal-dialog modal-dialog-centered modal-lg">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h1 class="modal-title fs-5" id="Loquierolabel">Se agrego correctamente</h1>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Ir al carrito</button>
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Seguir comprando</button>
+      </div>
+</div>
 </div>
 </section>
 </section>
+
 </main>
 <!-- Footer -->
 <footer class="text-white container-fluid p-2 mt-3">
