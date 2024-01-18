@@ -115,8 +115,13 @@ footer .iframe {
   font-size: xx-large;
 }
 
-.bg-color-succes {
-  background-color: linear-gradient(to bottom, #F5B7B1, whitesmoke);
+.rota-horizontal {
+  transform: rotatey(180deg);
+}
+
+.confeti {
+  width: 80%;
+  filter: drop-shadow(4px 4px 2px);
 }
 
 /*# sourceMappingURL=style.css.map */
