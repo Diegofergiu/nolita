@@ -56,6 +56,13 @@ footer .iframe {
   display: block;
 }
 
+.btn2 {
+  background-color: #F5B7B1;
+  list-style: none;
+  color: white;
+  display: inline-block;
+}
+
 .card {
   transition-duration: 0.2s;
 }
@@ -80,13 +87,14 @@ footer .iframe {
   height: 480px;
   font-family: "Roboto", sans-serif;
 }
-.filtros h1, .filtros h2, .filtros h3 {
+.filtros h2, .filtros h3 {
   font-size: large;
 }
 .filtros h4 {
   font-size: medium;
 }
-.filtros_mobile h1, .filtros_mobile h2, .filtros_mobile h3 {
+.filtros_mobile h2 {
+  font-family: "Roboto", sans-serif;
   font-size: large;
 }
 
@@ -122,6 +130,14 @@ footer .iframe {
 .confeti {
   width: 80%;
   filter: drop-shadow(4px 4px 2px);
+}
+
+.succes h2 {
+  font-size: large;
+}
+
+.transate-caja {
+  transform: translateY(30%);
 }
 
 /*# sourceMappingURL=style.css.map */
